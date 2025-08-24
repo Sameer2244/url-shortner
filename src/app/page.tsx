@@ -21,7 +21,7 @@ export default async function Home() {
     <>
       <Header />
       <div className="flex min-h-[90vh] flex-col items-center justify-start">
-        <div className="w-[60rem] flex flex-col gap-4">
+        <div className="w-[60rem] max-md:w-full max-md:px-4 flex flex-col gap-4">
           <div className="flex justify-between items-center">
             <h1 className="text-3xl font-bold">URL Shortner</h1>
             <FormModal />
